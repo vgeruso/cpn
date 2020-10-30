@@ -6,6 +6,8 @@ basic Node ES6 API project creator
 
 ### Install
 
+In the root directory `~/` execute:
+
 ```bash
 $ wget https://raw.githubusercontent.com/vgeruso/cpn/master/install.sh
 ```
