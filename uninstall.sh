@@ -1,4 +1,4 @@
-#!/usr/bin/ bash
+#!bin/bash
 cd /usr/bin
 sudo rm cpn
 cd $HOME/.cpn
