@@ -1,4 +1,4 @@
-#!/usr/bin/ bash
+#!bin/bash
 git clone https://github.com/vgeruso/cpn.git .cpn/
 
 cd .cpn
