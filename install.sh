@@ -18,3 +18,5 @@ echo ""
 echo "cpn [you-projec-name]"
 echo ""
 echo "To uninstall run uninstall.sh in the .cpn/cpn directory"
+
+rm install.sh
