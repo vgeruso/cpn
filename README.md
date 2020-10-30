@@ -7,11 +7,11 @@ basic Node ES6 API project creator
 ### Install
 
 ```bash
-$ curl -o- []
+$ curl -o- https://raw.githubusercontent.com/vgeruso/cpn/master/install.sh
 ```
 
 ```bash
-$ curl -o- []
+$ curl -o- https://raw.githubusercontent.com/vgeruso/cpn/master/install.sh
 ```
 
 ```bash
