@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/cpn
 mkdir $1
 cd $1/
 
