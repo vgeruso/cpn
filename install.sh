@@ -3,8 +3,8 @@ git clone https://github.com/vgeruso/cpn.git .cpn/
 
 cd .cpn
 
-sudo chmod 777 cpn.sh
-sudo chmod 777 uninstall.sh
+sudo chmod 733 cpn.sh
+sudo chmod 733 uninstall.sh
 
 sudo cp cpn.sh /usr/bin
 cd /usr/bin
