@@ -10,7 +10,7 @@ sudo cp cpn.sh /usr/bin
 cd /usr/bin
 sudo mv cpn.sh cpn
 
-cd $HOME
+cd ~/
 
 echo "Installation successfully!"
 echo "Now try:"
