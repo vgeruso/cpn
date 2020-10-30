@@ -1,4 +1,4 @@
-# CPN => create project node
+# CPN (create project node)
 
 basic Node ES6 API project creator
 
