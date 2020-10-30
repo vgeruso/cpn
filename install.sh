@@ -17,6 +17,6 @@ echo "Now try:"
 echo ""
 echo "cpn [you-projec-name]"
 echo ""
-echo "To uninstall run uninstall.sh in the .cpn/cpn directory"
+echo "To uninstall run uninstall.sh in the ~/.cpn/ directory"
 
 rm install.sh
