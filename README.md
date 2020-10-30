@@ -9,7 +9,7 @@ basic Node ES6 API project creator
 In the root directory `~/` execute:
 
 ```bash
-$ wget https://raw.githubusercontent.com/vgeruso/cpn/1.0.1/install.sh
+$ wget https://raw.githubusercontent.com/vgeruso/cpn/1.0.0/install.sh
 ```
 
 ```bash
