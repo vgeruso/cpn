@@ -9,6 +9,7 @@ sudo chmod 733 uninstall.sh
 sudo cp cpn.sh /usr/bin
 cd /usr/bin
 sudo mv cpn.sh cpn
+sudo chmod 777 cpn
 
 cd ~/
 
