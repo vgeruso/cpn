@@ -110,6 +110,9 @@ echo -e "});" >> server.js
 
 cd ..
 
+touch README.md
+echo -e "# "$1 >> README.md
+
 git init
 
 touch .gitignore
