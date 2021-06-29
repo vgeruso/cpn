@@ -113,8 +113,6 @@ cd ..
 touch README.md
 echo -e "# "$1 >> README.md
 
-git init
-
 touch .gitignore
 echo -e "logs" >> .gitignore
 echo -e "*.log" >> .gitignore
@@ -164,7 +162,13 @@ echo -e ".dynamodb/\n" >> .gitignore
 echo -e ".tern-port\n" >> .gitignore
 echo -e ".vscode-test" >> .gitignore
 
+git init
+git add .
+git commit -m "initial commit"
+git branch -m master main
+
 clear
+
 echo "To start your application:"
 echo ""
 echo "cd $1/"
