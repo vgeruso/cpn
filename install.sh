@@ -4,6 +4,7 @@ git clone https://github.com/vgeruso/cpn.git .cpn/
 cd .cpn
 
 sudo chmod 733 cpn.sh
+sudo chomd 733 ./src/init.sh
 sudo chmod 733 ./src/options.sh
 sudo chmod 733 ./src/uninstall.sh
 sudo chmod 733 ./src/update.sh
@@ -41,6 +42,8 @@ fi
 
 echo "Installation successfully!"
 echo 
+echo "cpn version 1.2.0"
+echo
 echo "Usage: cpn <command> [<arg>]"
 echo
 echo "These are common cpn commands:"

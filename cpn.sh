@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 if test $1
 then
-  bash ./$CPN_DIR/src/options.sh $1 $2
+  bash $CPN_DIR/src/options.sh $1 $2
 else
-  echo "Usage: cpn <command> [<arg>]"
+  echo "cpn version 1.2.0"
+  echo
+  echo "Usage: cpn <command> [<arg>]" 
   echo
   echo "These are common cpn commands:"
   echo

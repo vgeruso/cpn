@@ -182,4 +182,5 @@ then
   echo "will be running on: http://localhost:3333/api/"
   echo ""
   echo "Created by Victor Geruso"
+  echo
 fi

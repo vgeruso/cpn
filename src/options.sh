@@ -11,9 +11,11 @@ fi
 
 if test $1 == "update"
 then
-  bash $CPN_DIR/src/update.sh
-  # echo "Update => $1 => In development"
+  # bash $CPN_DIR/src/update.sh
+  echo "Update => $1 => In development"
 else
+  echo "cpn version 1.2.0"
+  echo
   echo "Usage: cpn <command> [<arg>]"
   echo
   echo "These are common cpn commands:"
