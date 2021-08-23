@@ -4,7 +4,10 @@ git clone https://github.com/vgeruso/cpn.git .cpn/
 cd .cpn
 
 sudo chmod 733 cpn.sh
-sudo chmod 733 uninstall.sh
+sudo chomd 733 ./src/init.sh
+sudo chmod 733 ./src/options.sh
+sudo chmod 733 ./src/uninstall.sh
+sudo chmod 733 ./src/update.sh
 
 sudo cp cpn.sh /usr/bin
 cd /usr/bin
@@ -13,11 +16,43 @@ sudo chmod 777 cpn
 
 cd ~/
 
+if test $HOME/.bash_profile
+then
+  echo -e '#cpn' >> .bash_profile
+  echo -e 'export CPN_DIR="${HOME}/.cpn"' >> .bash_profile
+fi
+
+if test $HOME/.zshrc
+then
+  echo -e '#cpn' >> .zshrc
+  echo -e 'export CPN_DIR="${HOME}/.cpn"' >> .zshrc
+fi
+
+if test $HOME/.profile
+then
+  echo -e '#cpn' >> .profile
+  echo -e 'export CPN_DIR="${HOME}/.cpn"' >> .profile
+fi
+
+if test $HOME/.bashrc
+then
+  echo -e '#cpn' >> .bashrc
+  echo -e 'export CPN_DIR="${HOME}/.cpn"' >> .bashrc
+fi
+
 echo "Installation successfully!"
-echo "Now try:"
-echo ""
-echo "cpn [you-projec-name]"
-echo ""
-echo "To uninstall run uninstall.sh in the ~/.cpn/ directory"
+echo 
+echo "cpn version 1.2.0"
+echo
+echo "Usage: cpn <command> [<arg>]"
+echo
+echo "These are common cpn commands:"
+echo
+echo "Start a working area:"
+echo "  init <name project>   Create you project api node"
+echo
+echo "Perform maintenance on your cpn"
+echo "  update                Update cpn on your machine"
+echo "  uninstall             Uninstal cpn from your machine"
 
 rm install.sh
