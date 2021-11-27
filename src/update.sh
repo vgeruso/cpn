@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 cd $CPN_DIR
 
-PULL=$(git pull)
 VERSION=$(cpn -v)
+PULL=$(git pull)
+
 
 if test "$PULL" == "Already up to date."
 then
@@ -13,8 +14,6 @@ fi
 
 if test "$PULL" != "Already up to date."
 then
-  git pull
-
   sudo chmod 733 cpn.sh
   sudo chmod 733 ./src/init.sh
   sudo chmod 733 ./src/options.sh
