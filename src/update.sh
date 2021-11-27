@@ -12,7 +12,7 @@ else
   git pull
 
   sudo chmod 733 cpn.sh
-  sudo chomd 733 ./src/init.sh
+  sudo chmod 733 ./src/init.sh
   sudo chmod 733 ./src/options.sh
   sudo chmod 733 ./src/uninstall.sh
   sudo chmod 733 ./src/update.sh
