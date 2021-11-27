@@ -1,4 +1,4 @@
-echo "cpn version 1.2.5"
+echo "cpn version 1.2.6"
 echo
 echo "Usage: cpn [<flag>] [<command>] [<arg>]"
 echo
