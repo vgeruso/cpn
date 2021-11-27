@@ -4,11 +4,15 @@ cd $CPN_DIR
 PULL=$(git pull)
 VERSION=$(cpn -v)
 
-if test $PULL == "Already up to date!"
+if test "$PULL" == "Already up to date."
 then
-  echo "the system is already up to date"
+  echo $PULL
   echo
-else
+  bash $CPN_DIR/src/help.sh
+fi
+
+if test "$PULL" != "Already up to date."
+then
   git pull
 
   sudo chmod 733 cpn.sh
@@ -29,13 +33,17 @@ else
 
   NEW_VERSION=$(cpn -v)
 
-  if test $VERSION != $NEW_VERSION
+  if test "$VERSION" != "$NEW_VERSION"
+  then
     echo "Update successfully!"
     echo
-  else
-    echo "Update error contact support"
-    echo
+    bash $CPN_DIR/src/help.sh
   fi
 
-  bash $CPN_DIR/src/help.sh
+  if test "$VERSION" == "$NEW_VERSION"
+  then
+    echo "==> No updated <=="
+    echo
+    bash $CPN_DIR/src/help.sh
+  fi
 fi
