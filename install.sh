@@ -8,8 +8,8 @@ sudo chomd 733 ./src/init.sh
 sudo chmod 733 ./src/options.sh
 sudo chmod 733 ./src/uninstall.sh
 sudo chmod 733 ./src/update.sh
-sudo chomd 733 ./src/help.sh
-sudo chomd 733 ./src/version.sh
+sudo chmod 733 ./src/help.sh
+sudo chmod 733 ./src/version.sh
 
 sudo cp cpn.sh /usr/bin
 cd /usr/bin
