@@ -29,7 +29,7 @@ then
   bash $CPN_DIR/src/version.sh
 fi
 
-if test $1 == "-version"
+if test $1 == "--version"
 then
   bash $CPN_DIR/src/version.sh
 fi
