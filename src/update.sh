@@ -25,4 +25,5 @@ else
 
   echo "Update successfully!"
   echo
+  $CPN_DIR/src/help.sh
 fi

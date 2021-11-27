@@ -4,12 +4,19 @@ basic Node ES6 API project creator
 
 ## Get Started
 
+### Required programs
+
+The cpn requires the following systems installed:
+
+- [Node.JS LTS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/getting-started)
+
 ### Install
 
 In the root directory `~/` execute:
 
 ```bash
-$ wget https://raw.githubusercontent.com/vgeruso/cpn/1.2.0/install.sh
+$ wget https://raw.githubusercontent.com/vgeruso/cpn/1.2.1/install.sh
 ```
 
 ```bash
@@ -31,17 +38,17 @@ $ bash install.sh
 Run in a required folder:
 
 ```bash
-$ cpn my-project
+$ cpn init my-project
 ```
 
 In 'my-project' means the name of your project
 
-grant during the process a series of questions will be asked for the configuration of eslint, follow the recommended answers for an API, however this varies depending on the project and the time it is developing:
+Grant during the process a series of questions will be asked for the configuration of eslint, follow the recommended answers for an API, however this varies depending on the project and the time it is developing:
 
 1. To check the syntax, find problems and apply the code style
 2. JavaScript modules (import / export)
 3. None of these
-4. Node
+4. Node => Use space to unmark browser and mark node then press enter
 5. Use a popular style guide
 6. Airbnb
 7. JavaScript
@@ -67,5 +74,18 @@ $ yarn start
 ```
 
 will be running on: http://localhost:3333/api/
+
+### Others commands
+
+Usage: cpn [ flag ] command [ arg ]
+
+These are common cpn commands:
+
+Perform maintenance on your cpn:
+- update => Update cpn on your machine
+- uninstall => Uninstal cpn from your machine
+
+These are common cpn flags:
+- -h or --help => Show this help list
 
 Created by Victor Geruso
