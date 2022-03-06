@@ -1,0 +1,20 @@
+{
+  "name": "cpn",
+  "version": "2.0.0",
+  "description": "Create Project node",
+  "main": "index.js",
+  "repository": "https://github.com/vgeruso/cpn.git",
+  "author": "geruso <victor.geruso@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cli-table": "^0.3.11",
+    "commander": "^9.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.5"
+  }
+}
