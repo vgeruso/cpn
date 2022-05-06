@@ -41,21 +41,7 @@ Run in a required folder:
 $ cpn init my-project
 ```
 
-In 'my-project' means the name of your project
-
-Grant during the process a series of questions will be asked for the configuration of eslint, follow the recommended answers for an API, however this varies depending on the project and the time it is developing:
-
-1. To check the syntax, find problems and apply the code style
-2. JavaScript modules (import / export)
-3. None of these
-4. Node => Use space to unmark browser and mark node then press enter
-5. Use a popular style guide
-6. Airbnb
-7. JavaScript
-
-After answering the questions answer `yes` to install some dependencies through NPM.
-
-Completed all the settings of the script will show the following message:
+'my-project' means the name of your project
 
 To start your application:
 
