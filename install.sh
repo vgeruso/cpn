@@ -3,6 +3,8 @@ git clone https://github.com/vgeruso/cpn.git .cpn/
 
 cd .cpn
 
+yarn install
+
 sudo chmod 733 cpn.sh
 sudo chmod 733 ./src/uninstall.sh
 sudo chmod 733 ./src/update.sh
@@ -43,6 +45,6 @@ then
 fi
 
 echo
-bash $CPN_DIR/src/help.sh
+cpn -h
 
 rm install.sh
