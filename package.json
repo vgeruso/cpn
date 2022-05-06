@@ -7,12 +7,14 @@
   "author": "geruso <victor.geruso@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=DEV node index.js"
+    "dev": "NODE_ENV=DEV node cpn.js",
+    "cpn": "node $CPN_DIR/cpn.js"
   },
   "bin": {
     "cpn": "index.js"
   },
   "dependencies": {
+    "ansi-colors": "^4.1.1",
     "chalk": "2.4.2",
     "cli-progress": "^3.10.0",
     "cli-table": "^0.3.11",

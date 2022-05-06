@@ -16,7 +16,7 @@ The cpn requires the following systems installed:
 In the root directory `~/` execute:
 
 ```bash
-$ wget https://raw.githubusercontent.com/vgeruso/cpn/1.3.0/install.sh
+$ wget https://raw.githubusercontent.com/vgeruso/cpn/2.0.0/install.sh
 ```
 
 ```bash
@@ -74,18 +74,5 @@ $ yarn start
 ```
 
 will be running on: http://localhost:3333/api/
-
-### Others commands
-
-Usage: cpn [ flag ] command [ arg ]
-
-These are common cpn commands:
-
-Perform maintenance on your cpn:
-- update => Update cpn on your machine
-- uninstall => Uninstal cpn from your machine
-
-These are common cpn flags:
-- -h or --help => Show this help list
 
 Created by Victor Geruso
