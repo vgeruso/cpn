@@ -37,8 +37,16 @@ $ bash install.sh
 
 Run in a required folder:
 
+If your project is JavaScript run:
+
 ```bash
-$ cpn init my-project
+$ cpn init -js my-project
+```
+
+If your project is TypeScript run:
+
+```bash
+$ cpn init -ts my-project
 ```
 
 'my-project' means the name of your project
