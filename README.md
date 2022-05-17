@@ -16,7 +16,7 @@ The cpn requires the following systems installed:
 In the root directory `~/` execute:
 
 ```bash
-$ wget https://raw.githubusercontent.com/vgeruso/cpn/2.0.1/install.sh
+$ wget https://raw.githubusercontent.com/vgeruso/cpn/2.0.2/install.sh
 ```
 
 ```bash
