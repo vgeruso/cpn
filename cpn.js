@@ -92,15 +92,15 @@ app
       } else {
         shell.exec(`cp -r $CPN_DIR/src/models/JS/* ${dirProject}`);
         progressBar.update(80);
-        shell.exec(`cp $CPN_DIR_DEV/src/models/JS/.editorconfig ${dirProject}`);
+        shell.exec(`cp $CPN_DIR/src/models/JS/.editorconfig ${dirProject}`);
         progressBar.update(81);
-        shell.exec(`cp $CPN_DIR_DEV/src/models/JS/.env.example ${dirProject}`);
+        shell.exec(`cp $CPN_DIR/src/models/JS/.env.example ${dirProject}`);
         progressBar.update(82);
-        shell.exec(`cp $CPN_DIR_DEV/src/models/JS/.eslintrc.js ${dirProject}`);
+        shell.exec(`cp $CPN_DIR/src/models/JS/.eslintrc.js ${dirProject}`);
         progressBar.update(83);
-        shell.exec(`cp $CPN_DIR_DEV/src/models/JS/.gitignore ${dirProject}`);
+        shell.exec(`cp $CPN_DIR/src/models/JS/.gitignore ${dirProject}`);
         progressBar.update(84);
-        shell.exec(`cp $CPN_DIR_DEV/src/models/JS/.prettierrc ${dirProject}`);
+        shell.exec(`cp $CPN_DIR/src/models/JS/.prettierrc ${dirProject}`);
         progressBar.update(85);
         shell.exec(`cp $CPN_DIR/src/models/JS/nodemon.json ${dirProject}`);
         progressBar.update(90);
@@ -137,11 +137,11 @@ app
       } else {
         shell.exec(`cp -r $CPN_DIR/src/models/TS/* ${dirProject}`);
         progressBar.update(75);
-        shell.exec(`cp $CPN_DIR_DEV/src/models/TS/.editorconfig ${dirProject}`);
+        shell.exec(`cp $CPN_DIR/src/models/TS/.editorconfig ${dirProject}`);
         progressBar.update(80);
-        shell.exec(`cp $CPN_DIR_DEV/src/models/TS/.env.example ${dirProject}`);
+        shell.exec(`cp $CPN_DIR/src/models/TS/.env.example ${dirProject}`);
         progressBar.update(82);
-        shell.exec(`cp $CPN_DIR_DEV/src/models/TS/.gitignore ${dirProject}`);
+        shell.exec(`cp $CPN_DIR/src/models/TS/.gitignore ${dirProject}`);
         progressBar.update(84);
         shell.exec(`cp $CPN_DIR/src/models/TS/nodemon.json ${dirProject}`);
         progressBar.update(85);
@@ -166,7 +166,7 @@ app
     progressBar.update(100);
     progressBar.stop();
 
-    shell.exec(`clear`);
+    // shell.exec(`clear`);
 
     console.log("To start your application:\n");
     console.log(`cd ${projectName}\n`);
